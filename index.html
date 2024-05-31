@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday To you Manu 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-cdn.css">
+</head>
+<body>
+   <div class="main-container">
+    <!-- Page One Section -->
+      <div class="frontpage-wishing">
+        <div class="frontpage-wishing-password">
+
+        </div>
+        <div class="frontpage-wishing-contents">
+            <img src="imgs/gal-3.JPG">
+            <h1>Birthday <br> <span> ✳ Party ✳</span></h1>
+            <h4>It's my baby girl Birthday <span>Manu</span></h4>
+            <p>1 Jun 2024 | 12:00 AM</p>
+            <p>🍨 Saturday 🍨</p>
+        </div>
+        <div class="canvas-container">
+            <div id="canvas">
+
+            </div>
+        </div>
+        <div class="button-open">
+            <div class="button-open-toggle">
+                <span class="circle"></span>
+                <small>Gift 🥞</small>
+            </div>
+        </div>
+      </div>
+<!-- Page Two Section  -->
+      <div class="cute-apps">
+        <div class="cute-gallery">
+            <h2>My Sweet Memories With you ❤❤❤❤</h2>
+            <div class="cute-gallery-images-container">
+                <div class="go-to-next-page">
+                    Next➡
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-4.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-3.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-2.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-4.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/manu-3.jpg">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-5.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/manu-9.jpg">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/gal-1.JPG">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/manu-2.jpg">
+                </div>
+                <div class="cute-gallery-images">
+                    <img src="imgs/profile.JPG">
+                </div>
+            </div>
+            <div class="gallery-buttons">
+                <span><img src="imgs/back.png" onclick="Previous()"></span>
+                <span class="nextButton"><img src="imgs/like.png" onclick="Next()"></span>
+                <audio src="Shutter Click.mp3" class="Shutter-audio"></audio>
+            </div>
+            <small></small>
+        </div>
+      </div>
+      <!-- Page Three Section -->
+      <div class="cute-notes">
+        <div class="cute-notes-header">
+            <small>Cute Notes <img src="imgs/14.png"></small>
+            <small class="nextPageThree">Next Page ➡</small>
+        </div>
+        <span>You can keep your personal Notes Here...</span>
+        <div class="cute-notes-box">
+            <!-- <div class="notes">
+                <h3>This is the Description</h3>
+                <p>Lorem ipsum dolor sit possimus aliquam .</p>
+                <div class="delete-note"></div>
+            </div> -->
+        </div>
+        <img src="imgs/add.png" class="add-btn">
+        <div class="add-notes-box">
+            <h3>Add your Notes Here</h3>
+            <div class="cut-popup"><img src="imgs/close.png"></div>
+            <form>
+                <div class="notes-inputs">
+                    <input type="text" name="" class="inputField" required>
+                    <span>Add Your Title</span>
+                </div>
+                <div class="notes-inputs">
+                    <textarea name="" class="inputTextArea" required></textarea>
+                    <span>Add Description</span>
+                    
+                </div>
+                <button type="button" name="" class="add-note-btn"><img src="imgs/add-note.png"></button>
+            </form>
+        </div>
+      </div>
+
+      <!-- Page Four Section  -->
+      <div class="mini-music-player">
+        <div class="music-header">
+            <h2>Mini Musics <img src="imgs/music.png"></h2>
+            <small onclick="miniMusicNextBtn()">Next Page ➡</small>
+        </div>
+        <div class="mini-music-player-data">
+            <div class="mini-music-player-data-left">
+                <p>I created this cute mini music player for your my baby girl i hope you like my wishing throughout my works 💜</p>
+                <button>Love You Baby</button>
+            </div>
+            <div class="mini-music-player-data-right">
+                <img src="imgs/play-music.png">
+            </div>
+        </div>
+
+        <div class="mini-music-player-playlists">
+            <h4 class="playlist-title">My best picked songs for you babe</h4>
+            <div class="swiper mini-music-player-playlists-swiper">
+                <div class="swiper-wrapper mini-music-player-wrapper">
+                    <!-- <div class="swiper-slide mini-music-player-songs">
+                        <div class="mini-music-player-songs-insides">
+                            <img src="" class="song-img">
+                            <img src="" class="play-img">
+                        </div>
+                        <h4>this is so cool</h4>
+                        <small>Singer Name oh yeah</small>
+                    </div> -->
+                    
+                    
+                </div>
+                <div class="player">
+                    <div class="player-data">
+                        <img src="imgs/prev.png" onclick="previousSong()">
+                        <img src="imgs/play.png" class="play-music-image">
+                        <img src="imgs/next.png" onclick="nextSong()">
+                        <audio src="" class="musicSRC"></audio>
+                    </div>
+                    <div class="bars">
+                        <div class="bars-percentage"></div>
+                    </div>
+                    <img src="imgs/equalizer.webp" class="equalizer-img">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Page five section code starts -->
+      <div class="final-section">
+        <div class="final-section-contents">
+            <div id="canvasTwo">
+                
+            </div>
+            <div class="box">
+                <img src="imgs/gal-3.JPG">
+            </div>
+            <div class="wishing-texts">
+                <h3>I hope you like my wishings 💝 to you my sweetheart. Wishing you again a healthiest, very happy birthday 🥳🎂 and stay Happy Always 😊🌟. I hope your day is as amazing and beautiful as you are 🌸✨❤️. </h3>
+            </div>
+            <button class="home-btn" onclick="homeBtn()"><img src="imgs/home.png"></button>
+        </div>
+      </div>
+
+   </div> 
+<script src="matter-js.js"></script>
+<script src="swiper-cdn.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
